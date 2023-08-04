@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
         self.view = QTreeView()
         self.text_result = QTextEdit()
         self.model = JsonModel(main_window=self)
-        self.setWindowTitle("Vekas")
+        self.setWindowTitle("program")
         self.mutex = QMutex()
 
         self.file_menu = self.menuBar().addMenu("File")
