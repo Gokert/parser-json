@@ -1,0 +1,42 @@
+QTreeView {
+	 background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(135, 206, 235, 10), stop:0.427447 rgba(135, 206, 250, 235), stop:1 rgba(135, 206, 235, 10));
+	 border: none ;
+	 margin-top:0px;
+	 max-height: 500px;
+	 font-size: 16px;
+	 font-family: 'Montserrat', sans-serif;
+}
+
+QTreeView::item:selected {
+	background-color: #87CEEB;
+	color: #1b2b28;
+}
+
+QTreeView::item {
+	background-color: rgba(255, 255, 255, 30);
+	border: 1px solid rgba(255, 255, 255, 40);
+}
+
+QHeaderView::section {
+	background-color:rgba(135, 206, 250, 235);
+	font-size:16px;
+}
+
+QMainWindow {
+	background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(135, 206, 235, 10), stop:0.427447 rgba(135, 206, 250, 100), stop:1 rgba(135, 206, 235, 146));
+}
+
+QTextEdit {
+	background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(135, 206, 235, 10), stop:0.427447 rgba(135, 206, 250, 235), stop:1 rgba(135, 206, 235, 10));
+	border: none ;
+	max-height: 300px;
+	font-size:15px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+}
+
+QMenuBar {
+	background-color: rgba(255, 255, 255, 30);
+	border: 1px solid rgba(255, 255, 255, 40);
+	font-family: 'Montserrat', sans-serif;
+}
